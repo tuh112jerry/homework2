@@ -7,19 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35A687D5253DAC26009D4005 /* Content3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A687D4253DAC26009D4005 /* Content3View.swift */; };
 		35DDAD5D253C59B200CBA015 /* homework2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DDAD5C253C59B200CBA015 /* homework2App.swift */; };
 		35DDAD5F253C59B200CBA015 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DDAD5E253C59B200CBA015 /* ContentView.swift */; };
 		35DDAD61253C59B400CBA015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35DDAD60253C59B400CBA015 /* Assets.xcassets */; };
 		35DDAD64253C59B400CBA015 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35DDAD63253C59B400CBA015 /* Preview Assets.xcassets */; };
+		35DDAD6D253C95BB00CBA015 /* SwiftUIstoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DDAD6C253C95BB00CBA015 /* SwiftUIstoryView.swift */; };
+		35DDAD70253CB1C400CBA015 /* SwiftUIuseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DDAD6F253CB1C400CBA015 /* SwiftUIuseView.swift */; };
+		35DDAD76253CB28200CBA015 /* SwiftUIauthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DDAD75253CB28200CBA015 /* SwiftUIauthorView.swift */; };
+		35DDAD7A253CBDA300CBA015 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DDAD79253CBDA300CBA015 /* AppView.swift */; };
+		35DDAD7D253CBFAC00CBA015 /* Content2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DDAD7C253CBFAC00CBA015 /* Content2View.swift */; };
+		35DDAD8D253CD6DA00CBA015 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DDAD8C253CD6DA00CBA015 /* Character.swift */; };
+		35DDAD91253CD72D00CBA015 /* Characterrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DDAD90253CD72D00CBA015 /* Characterrow.swift */; };
+		35DDAD94253CE10800CBA015 /* Characterlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DDAD93253CE10800CBA015 /* Characterlist.swift */; };
+		35F26D78253CFC9B003EF722 /* Characterdetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F26D77253CFC9B003EF722 /* Characterdetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35A687D4253DAC26009D4005 /* Content3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content3View.swift; sourceTree = "<group>"; };
 		35DDAD59253C59B200CBA015 /* homework2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homework2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35DDAD5C253C59B200CBA015 /* homework2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework2App.swift; sourceTree = "<group>"; };
 		35DDAD5E253C59B200CBA015 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		35DDAD60253C59B400CBA015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35DDAD63253C59B400CBA015 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		35DDAD65253C59B400CBA015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35DDAD6C253C95BB00CBA015 /* SwiftUIstoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIstoryView.swift; sourceTree = "<group>"; };
+		35DDAD6F253CB1C400CBA015 /* SwiftUIuseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIuseView.swift; sourceTree = "<group>"; };
+		35DDAD75253CB28200CBA015 /* SwiftUIauthorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIauthorView.swift; sourceTree = "<group>"; };
+		35DDAD79253CBDA300CBA015 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		35DDAD7C253CBFAC00CBA015 /* Content2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content2View.swift; sourceTree = "<group>"; };
+		35DDAD8C253CD6DA00CBA015 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		35DDAD90253CD72D00CBA015 /* Characterrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characterrow.swift; sourceTree = "<group>"; };
+		35DDAD93253CE10800CBA015 /* Characterlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characterlist.swift; sourceTree = "<group>"; };
+		35F26D77253CFC9B003EF722 /* Characterdetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characterdetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +73,17 @@
 			isa = PBXGroup;
 			children = (
 				35DDAD5C253C59B200CBA015 /* homework2App.swift */,
+				35DDAD79253CBDA300CBA015 /* AppView.swift */,
 				35DDAD5E253C59B200CBA015 /* ContentView.swift */,
+				35DDAD7C253CBFAC00CBA015 /* Content2View.swift */,
+				35A687D4253DAC26009D4005 /* Content3View.swift */,
+				35DDAD6C253C95BB00CBA015 /* SwiftUIstoryView.swift */,
+				35DDAD6F253CB1C400CBA015 /* SwiftUIuseView.swift */,
+				35DDAD75253CB28200CBA015 /* SwiftUIauthorView.swift */,
+				35DDAD8C253CD6DA00CBA015 /* Character.swift */,
+				35DDAD90253CD72D00CBA015 /* Characterrow.swift */,
+				35F26D77253CFC9B003EF722 /* Characterdetail.swift */,
+				35DDAD93253CE10800CBA015 /* Characterlist.swift */,
 				35DDAD60253C59B400CBA015 /* Assets.xcassets */,
 				35DDAD65253C59B400CBA015 /* Info.plist */,
 				35DDAD62253C59B400CBA015 /* Preview Content */,
@@ -138,8 +168,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35DDAD8D253CD6DA00CBA015 /* Character.swift in Sources */,
+				35DDAD76253CB28200CBA015 /* SwiftUIauthorView.swift in Sources */,
 				35DDAD5F253C59B200CBA015 /* ContentView.swift in Sources */,
+				35DDAD7A253CBDA300CBA015 /* AppView.swift in Sources */,
 				35DDAD5D253C59B200CBA015 /* homework2App.swift in Sources */,
+				35DDAD94253CE10800CBA015 /* Characterlist.swift in Sources */,
+				35DDAD7D253CBFAC00CBA015 /* Content2View.swift in Sources */,
+				35F26D78253CFC9B003EF722 /* Characterdetail.swift in Sources */,
+				35DDAD70253CB1C400CBA015 /* SwiftUIuseView.swift in Sources */,
+				35DDAD91253CD72D00CBA015 /* Characterrow.swift in Sources */,
+				35A687D5253DAC26009D4005 /* Content3View.swift in Sources */,
+				35DDAD6D253C95BB00CBA015 /* SwiftUIstoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

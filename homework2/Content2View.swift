@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  Content2View.swift
 //  homework2
 //
-//  Created by User23 on 2020/10/18.
+//  Created by User23 on 2020/10/19.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct Content2View: View {
     var body: some View {
         NavigationView
         {
@@ -20,36 +20,37 @@ struct ContentView: View {
                     .edgesIgnoringSafeArea(.all)
                 VStack
                 {
-                    NavigationLink(destination: SwiftUIstoryView())
+                    NavigationLink(destination: Characterlist())
                     {
                         VStack
                         {
-                            Text("1.故事簡介")
-                            Image("死筆")
+                            Text("1.主要登場角色")
+                            Image("死筆3")
                                 .resizable()
                                 .frame(width: 300, height: 200)
                                 .scaledToFill()
                         }
                     }
-                    NavigationLink(destination: SwiftUIuseView())
+                    NavigationLink(destination: SwiftUIauthorView())
                     {
                         VStack
                         {
-                            Text("2.如何使用死亡筆記本")
-                            Image("死筆2")
+                            Text("2.作者")
+                            Image("死筆4")
                                 .resizable()
                                 .frame(width: 300, height: 200)
                                 .scaledToFill()
                         }
                     }
                 }
-                .navigationTitle("故事背景")
+                .navigationTitle("人物介紹")
             }
         }
     }
 }
-struct ContentView_Previews: PreviewProvider {
+
+struct Content2View_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Content2View()
     }
 }
